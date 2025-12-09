@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warkop Pua Kale - Poltangan | Kopi Makassar Asli</title>
+    <style>
+        /* CSS Dasar untuk Tema Makassar */
+        :root {
+            --color-kopi-hitam: #2C1A1C; /* Cokelat Gelap Kopi */
+            --color-tanah: #A3795C; /* Cokelat Tanah/Anyaman */
+            --color-emas-songket: #D4AF37; /* Aksen Emas Khas */
+            --color-putih-kopi: #F5F5DC; /* Krem/Putih Gading */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-putih-kopi);
+            color: var(--color-kopi-hitam);
+        }
+        header {
+            background-color: var(--color-kopi-hitam);
+            color: var(--color-emas-songket);
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid var(--color-tanah);
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif; /* Ganti dengan font yang lebih etnik */
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav a {
+            color: var(--color-emas-songket);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .hero {
+            background: url('placeholder-bg.jpg') no-repeat center center/cover; /* Ganti dengan gambar kopi atau pantai Makassar */
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            margin-bottom: 30px;
+        }
+        .hero-text h2 {
+            font-size: 3em;
+        }
+        footer {
+            background-color: var(--color-kopi-hitam);
+            color: var(--color-tanah);
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+        .section-title {
+            border-left: 5px solid var(--color-emas-songket);
+            padding-left: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>☕ WARKOP PUA KALE ⚓</h1>
+        <p><em>Singgah Kopi, Rasa Kampung Halaman.</em></p>
+        <nav>
+            <a href="#tentang">TENTANG KAMI</a>
+            <a href="#menu">MENU ANDALAN</a>
+            <a href="#lokasi">LOKASI</a>
+            <a href="https://wa.me/XXXXXXXXXX" target="_blank">PESAN SEKARANG</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Cita Rasa Sejati Kopi Makassar di Poltangan!</h2>
+                <p style="font-size: 1.2em;">Mari Kopi-kopi, Rasakan Hangatnya Kebersamaan Ala Tanah Daeng.</p>
+            </div>
+        </section>
+
+        <section id="tentang">
+            <h3 class="section-title">✨ Pua Kale: Semangat Makassar</h3>
+            <p><strong>"Pua Kale"</strong> (Bapak Tua yang Dihormati) adalah nama yang kami bawa dari Selatan. Kami menyajikan kopi robusta pilihan yang diracik otentik, ditemani penganan khas seperti <strong>Jalangkote</strong> dan <strong>Barongko</strong>. Kami bukan sekadar warkop, tapi rumah kehangatan dan cerita.</p>
+            <p><em>Sipakatau, Sipakalebbi.</em></p>
+        </section>
+
+        <hr style="border-top: 1px dashed var(--color-tanah); margin: 30px 0;">
+
+        <section id="menu">
+            <h3 class="section-title">🍽️ Menu Andalan: Dari Kopi Sampai Penganan</h3>
+            <article>
+                <h4>Kopi Hitam Pua Kale</h4>
+                <p>Kopi robusta murni yang disajikan kental, pahitnya pas, aromanya menusuk. Cara penyajian khas warkop, dijamin bikin melek!</p>
+            </article>
+            <article>
+                <h4>Jalangkote Pedas Manis</h4>
+                <p>Pastel renyah khas Makassar. Paling enak dicocol sambal cuka rahasia kami. Cocok untuk teman ngopi.</p>
+            </article>
+        </section>
+
+        <hr style="border-top: 1px dashed var(--color-tanah); margin: 30px 0;">
+
+        <section id="lokasi">
+            <h3 class="section-title">📍 Lokasi: Poltangan, Pasar Minggu</h3>
+            <p>Kami berada tepat di [Sebutkan Patokan Mudah, misal: samping Indomaret/dekat stasiun].</p>
+            <address>
+                Jl. [Nama Jalan], Poltangan, Pasar Minggu, Jakarta Selatan.<br>
+                Buka: 08.00 - 23.00 WIB
+            </address>
+            <p><a href="[Link Google Maps Warkop]" style="color: var(--color-tanah); font-weight: bold;">Lihat di Google Maps</a></p>
+        </section>
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Warkop Pua Kale. Semua Hak Cipta Dilindungi. | Kontak: XXXXXXXX</p>
+    </footer>
+
+</body>
+</html>
+
+/* CSS Dasar untuk Tema Makassar */
+:root {
+    --color-kopi-hitam: #2C1A1C; /* Cokelat Gelap Kopi */
+    --color-tanah: #A3795C; /* Cokelat Tanah/Anyaman */
+    --color-emas-songket: #D4AF37; /* Aksen Emas Khas */
+    --color-putih-kopi: #F5F5DC; /* Krem/Putih Gading */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-putih-kopi);
+    color: var(--color-kopi-hitam);
+}
+header {
+    background-color: var(--color-kopi-hitam);
+    color: var(--color-emas-songket);
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid var(--color-tanah);
+}
+header h1 {
+    /* Font family Playfair Display (gunakan Google Font link di HTML) */
+    font-family: 'Playfair Display', serif; 
+    margin: 0;
+    font-size: 2.5em;
+}
+nav a {
+    color: var(--color-emas-songket);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: var(--color-putih-kopi);
+}
+.container {
+    width: 80%;
+    max-width: 1100px; /* Batasi lebar agar tampilan bagus di desktop */
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.hero {
+    /* GANTI 'hero-bg.jpg' dengan nama file gambar Anda */
+    background: url('hero-bg.jpg') no-repeat center center/cover; 
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    margin-bottom: 30px;
+    border-radius: 8px; /* Sudut sedikit melengkung */
+}
+.hero-text h2 {
+    font-size: 3em;
+}
+footer {
+    background-color: var(--color-kopi-hitam);
+    color: var(--color-tanah);
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+.section-title {
+    border-left: 5px solid var(--color-emas-songket);
+    padding-left: 15px;
+    margin-bottom: 25px;
+    font-size: 1.8em;
+    color: var(--color-kopi-hitam);
+}
+hr {
+    border: none;
+    border-top: 1px dashed var(--color-tanah);
+    margin: 40px 0;
+}
+.menu-item {
+    border: 1px solid var(--color-tanah);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.map-link {
+    color: var(--color-tanah); 
+    font-weight: bold;
+    text-decoration: none;
+}
+.map-link:hover {
+    text-decoration: underline;
+}
